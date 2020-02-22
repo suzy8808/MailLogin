@@ -16,7 +16,7 @@ spring:
    mail:
       host: smtp.163.com #发送邮件服务器
       username: soul_bay@163.com #QQ邮箱
-      password: shizuka8989 #客户端授权码
+      password: xxxx #客户端授权码
       protocol: smtp #发送邮件协议
       properties.mail.smtp.auth: true
       properties.mail.smtp.port: 465 #端口号465或587
