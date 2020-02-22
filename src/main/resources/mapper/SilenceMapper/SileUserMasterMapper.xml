@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.bobo.silence.mapper.silemapper.SileUserMasterMapper" >
+  <resultMap id="BaseResultMap" type="org.bobo.silence.bean.UserMaster" >
+    <id column="user_id" property="userId" jdbcType="VARCHAR" />
+    <result column="real_name" property="realName" jdbcType="VARCHAR" />
+    <result column="nick_name" property="nickName" jdbcType="VARCHAR" />
+    <result column="sex" property="sex" jdbcType="INTEGER" />
+    <result column="birthday" property="birthday" jdbcType="VARCHAR" />
+    <result column="tele" property="tele" jdbcType="VARCHAR" />
+    <result column="email" property="email" jdbcType="VARCHAR" />
+    <result column="address" property="address" jdbcType="VARCHAR" />
+    <result column="level" property="level" jdbcType="INTEGER" />
+    <result column="head_picture" property="headPicture" jdbcType="VARCHAR" />
+    <result column="manifesto" property="manifesto" jdbcType="VARCHAR" />
+    <result column="money" property="money" jdbcType="BIGINT" />
+    <result column="alipay" property="alipay" jdbcType="VARCHAR" />
+    <result column="weipay" property="weipay" jdbcType="VARCHAR" />
+    <result column="password" property="password" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    user_id, real_name, nick_name, sex, birthday, tele, email, address, level, head_picture, 
+    manifesto, money, alipay, weipay, password, create_time, update_time
+  </sql>
+  <select id="selectByEmail" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from user_master
+    where email = #{email,jdbcType=VARCHAR}
+  </select>
+  
+  <select id="selectByNickName" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from user_master
+    where nickName = #{nickName,jdbcType=VARCHAR}
+  </select>
+</mapper>

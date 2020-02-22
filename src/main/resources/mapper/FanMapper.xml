@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.bobo.silence.mapper.FanMapper" >
+  <resultMap id="BaseResultMap" type="org.bobo.silence.bean.Fan" >
+    <id column="fan_id" property="fanId" jdbcType="VARCHAR" />
+    <result column="master_id" property="masterId" jdbcType="VARCHAR" />
+    <result column="follow_id" property="followId" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    fan_id, master_id, follow_id, create_time, update_time
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from fan
+    where fan_id = #{fanId,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from fan
+    where fan_id = #{fanId,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="org.bobo.silence.bean.Fan" >
+    insert into fan (fan_id, master_id, follow_id, 
+      create_time, update_time)
+    values (#{fanId,jdbcType=VARCHAR}, #{masterId,jdbcType=VARCHAR}, #{followId,jdbcType=VARCHAR}, 
+      #{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="org.bobo.silence.bean.Fan" >
+    insert into fan
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="fanId != null" >
+        fan_id,
+      </if>
+      <if test="masterId != null" >
+        master_id,
+      </if>
+      <if test="followId != null" >
+        follow_id,
+      </if>
+      <if test="createTime != null" >
+        create_time,
+      </if>
+      <if test="updateTime != null" >
+        update_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="fanId != null" >
+        #{fanId,jdbcType=VARCHAR},
+      </if>
+      <if test="masterId != null" >
+        #{masterId,jdbcType=VARCHAR},
+      </if>
+      <if test="followId != null" >
+        #{followId,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null" >
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null" >
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="org.bobo.silence.bean.Fan" >
+    update fan
+    <set >
+      <if test="masterId != null" >
+        master_id = #{masterId,jdbcType=VARCHAR},
+      </if>
+      <if test="followId != null" >
+        follow_id = #{followId,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null" >
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null" >
+        update_time = #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where fan_id = #{fanId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="org.bobo.silence.bean.Fan" >
+    update fan
+    set master_id = #{masterId,jdbcType=VARCHAR},
+      follow_id = #{followId,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      update_time = #{updateTime,jdbcType=TIMESTAMP}
+    where fan_id = #{fanId,jdbcType=VARCHAR}
+  </update>
+</mapper>

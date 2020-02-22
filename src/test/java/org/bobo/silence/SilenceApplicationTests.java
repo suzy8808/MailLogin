@@ -1,0 +1,13 @@
+package org.bobo.silence;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class SilenceApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}

@@ -1,0 +1,1215 @@
+2019-12-22 13:40:58.331  INFO 21436 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 21436 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 13:40:58.336  INFO 21436 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 13:40:58.914  INFO 21436 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 13:40:58.916  INFO 21436 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 13:40:58.941  INFO 21436 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-12-22 13:40:59.225  INFO 21436 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 13:40:59.702  INFO 21436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 13:40:59.711  INFO 21436 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 13:40:59.711  INFO 21436 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 13:40:59.859  INFO 21436 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 13:40:59.860  INFO 21436 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1480 ms
+2019-12-22 13:41:00.380  INFO 21436 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 13:41:01.083  INFO 21436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 13:41:01.086  INFO 21436 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 3.092 seconds (JVM running for 3.446)
+2019-12-22 13:42:19.614  INFO 21436 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 13:42:19.615  INFO 21436 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-22 13:42:19.621  INFO 21436 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-12-22 13:42:19.924 ERROR 21436 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 13:42:19.936  INFO 21436 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 13:49:47.898  INFO 19920 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 19920 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 13:49:47.900  INFO 19920 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 13:49:48.525  INFO 19920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 13:49:48.527  INFO 19920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 13:49:48.558  INFO 19920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+2019-12-22 13:49:48.929  INFO 19920 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 13:49:49.494  INFO 19920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 13:49:49.505  INFO 19920 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 13:49:49.505  INFO 19920 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 13:49:49.598  INFO 19920 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 13:49:49.598  INFO 19920 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1650 ms
+2019-12-22 13:49:50.339  INFO 19920 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 13:49:51.346  INFO 19920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 13:49:51.349  INFO 19920 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 3.825 seconds (JVM running for 4.216)
+2019-12-22 13:49:56.809  INFO 19920 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 13:49:56.810  INFO 19920 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-22 13:49:56.818  INFO 19920 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-12-22 13:49:57.167 ERROR 19920 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 13:49:57.177  INFO 19920 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 13:57:44.423  INFO 20136 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 20136 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 13:57:44.426  INFO 20136 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 13:57:45.120  INFO 20136 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 13:57:45.122  INFO 20136 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 13:57:45.156  INFO 20136 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2019-12-22 13:57:45.517  INFO 20136 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 13:57:46.017  INFO 20136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 13:57:46.028  INFO 20136 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 13:57:46.028  INFO 20136 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 13:57:46.108  INFO 20136 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 13:57:46.108  INFO 20136 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1638 ms
+2019-12-22 13:57:46.775  INFO 20136 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 13:57:47.454  INFO 20136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 13:57:47.457  INFO 20136 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 3.39 seconds (JVM running for 3.75)
+2019-12-22 13:57:51.006  INFO 20136 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 13:57:51.007  INFO 20136 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-22 13:57:51.012  INFO 20136 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-12-22 13:57:51.309 ERROR 20136 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 13:57:51.322  INFO 20136 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 13:59:10.673  INFO 12932 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 12932 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 13:59:10.675  INFO 12932 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 13:59:11.182  INFO 12932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 13:59:11.184  INFO 12932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 13:59:11.217  INFO 12932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+2019-12-22 13:59:11.552  INFO 12932 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 13:59:12.046  INFO 12932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 13:59:12.055  INFO 12932 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 13:59:12.055  INFO 12932 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 13:59:12.123  INFO 12932 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 13:59:12.123  INFO 12932 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1411 ms
+2019-12-22 13:59:12.649  INFO 12932 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 13:59:13.404  INFO 12932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 13:59:13.406  INFO 12932 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 3.074 seconds (JVM running for 3.415)
+2019-12-22 13:59:15.901  INFO 12932 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 13:59:15.901  INFO 12932 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-22 13:59:15.910  INFO 12932 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-12-22 13:59:16.226 ERROR 12932 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 13:59:16.236  INFO 12932 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 14:14:23.734  INFO 21040 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 21040 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 14:14:23.736  INFO 21040 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 14:14:24.305  INFO 21040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 14:14:24.307  INFO 21040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 14:14:24.340  INFO 21040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2019-12-22 14:14:24.687  INFO 21040 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 14:14:25.202  INFO 21040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 14:14:25.214  INFO 21040 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 14:14:25.214  INFO 21040 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 14:14:25.299  INFO 21040 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 14:14:25.299  INFO 21040 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1523 ms
+2019-12-22 14:14:25.856  INFO 21040 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 14:14:26.624  INFO 21040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 14:14:26.628  INFO 21040 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 3.231 seconds (JVM running for 3.582)
+2019-12-22 14:14:30.172  INFO 21040 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 14:14:30.172  INFO 21040 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-22 14:14:30.182  INFO 21040 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-12-22 14:14:30.466 ERROR 21040 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 14:14:30.477  INFO 21040 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 14:15:44.177  INFO 12720 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 12720 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 14:15:44.179  INFO 12720 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 14:15:44.730  INFO 12720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 14:15:44.732  INFO 12720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 14:15:44.759  INFO 12720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-12-22 14:15:45.100  INFO 12720 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 14:15:45.595  INFO 12720 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 14:15:45.606  INFO 12720 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 14:15:45.606  INFO 12720 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 14:15:45.688  INFO 12720 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 14:15:45.688  INFO 12720 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1466 ms
+2019-12-22 14:15:46.307  INFO 12720 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 14:15:47.100  INFO 12720 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 14:15:47.102  INFO 12720 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 3.269 seconds (JVM running for 3.622)
+2019-12-22 14:15:51.483  INFO 12720 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 14:15:51.483  INFO 12720 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-22 14:15:51.490  INFO 12720 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-12-22 14:15:51.734 ERROR 12720 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 14:15:51.745  INFO 12720 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 14:17:47.081  INFO 13176 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 13176 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 14:17:47.083  INFO 13176 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 14:17:47.601  INFO 13176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 14:17:47.604  INFO 13176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 14:17:47.632  INFO 13176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-12-22 14:17:47.944  INFO 13176 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 14:17:48.420  INFO 13176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 14:17:48.429  INFO 13176 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 14:17:48.430  INFO 13176 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 14:17:48.505  INFO 13176 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 14:17:48.506  INFO 13176 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1382 ms
+2019-12-22 14:17:49.092  INFO 13176 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 14:17:49.815  INFO 13176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 14:17:49.818  INFO 13176 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 3.063 seconds (JVM running for 3.41)
+2019-12-22 14:17:56.453  INFO 13176 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 14:17:56.453  INFO 13176 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-22 14:17:56.462  INFO 13176 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-12-22 14:17:56.737 ERROR 13176 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 14:17:56.749  INFO 13176 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 14:21:59.755  INFO 17256 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 17256 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 14:21:59.758  INFO 17256 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 14:22:00.454  INFO 17256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 14:22:00.456  INFO 17256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 14:22:00.499  INFO 17256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+2019-12-22 14:22:00.876  INFO 17256 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 14:22:01.396  INFO 17256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 14:22:01.407  INFO 17256 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 14:22:01.408  INFO 17256 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 14:22:01.489  INFO 17256 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 14:22:01.489  INFO 17256 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1692 ms
+2019-12-22 14:22:02.126  INFO 17256 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 14:22:02.858  INFO 17256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 14:22:02.861  INFO 17256 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 3.431 seconds (JVM running for 3.777)
+2019-12-22 14:22:06.262  INFO 17256 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 14:22:06.262  INFO 17256 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-22 14:22:06.268  INFO 17256 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-12-22 14:22:06.549 ERROR 17256 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 14:22:06.564  INFO 17256 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 14:25:47.883  INFO 6320 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 6320 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 14:25:47.885  INFO 6320 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 14:25:48.509  INFO 6320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 14:25:48.511  INFO 6320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 14:25:48.543  INFO 6320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+2019-12-22 14:25:48.853  INFO 6320 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 14:25:49.327  INFO 6320 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 14:25:49.337  INFO 6320 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 14:25:49.338  INFO 6320 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 14:25:49.415  INFO 6320 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 14:25:49.415  INFO 6320 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1489 ms
+2019-12-22 14:25:50.007  INFO 6320 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 14:25:50.693  INFO 6320 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 14:25:50.696  INFO 6320 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 3.146 seconds (JVM running for 3.494)
+2019-12-22 14:25:52.969  INFO 6320 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 14:25:52.969  INFO 6320 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-22 14:25:52.974  INFO 6320 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-12-22 14:25:53.248 ERROR 6320 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 14:25:53.261  INFO 6320 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 14:36:32.222  INFO 5480 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 5480 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 14:36:32.224  INFO 5480 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 14:36:32.733  INFO 5480 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 14:36:32.735  INFO 5480 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 14:36:32.768  INFO 5480 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+2019-12-22 14:36:33.079  INFO 5480 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 14:36:33.558  INFO 5480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 14:36:33.568  INFO 5480 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 14:36:33.568  INFO 5480 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 14:36:33.646  INFO 5480 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 14:36:33.647  INFO 5480 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1384 ms
+2019-12-22 14:36:34.137  INFO 5480 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 14:36:34.804  INFO 5480 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-12-22 14:36:34.846  INFO 5480 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-22 14:36:34.848 ERROR 5480 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2019-12-22 14:36:34.861  INFO 5480 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'taskExecutor'
+2019-12-22 14:37:13.955  INFO 19144 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 19144 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 14:37:13.957  INFO 19144 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 14:37:14.511  INFO 19144 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 14:37:14.513  INFO 19144 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 14:37:14.543  INFO 19144 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-12-22 14:37:14.872  INFO 19144 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 14:37:15.374  INFO 19144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 14:37:15.384  INFO 19144 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 14:37:15.384  INFO 19144 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 14:37:15.456  INFO 19144 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 14:37:15.456  INFO 19144 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1456 ms
+2019-12-22 14:37:16.033  INFO 19144 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 14:37:16.766  INFO 19144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 14:37:16.769  INFO 19144 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 3.165 seconds (JVM running for 3.526)
+2019-12-22 14:37:22.975  INFO 19144 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 14:37:22.976  INFO 19144 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-22 14:37:22.983  INFO 19144 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-12-22 14:37:23.223 ERROR 19144 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 14:37:23.232  INFO 19144 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 14:44:23.063  INFO 19384 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 19384 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 14:44:23.065  INFO 19384 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 14:44:23.624  INFO 19384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 14:44:23.626  INFO 19384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 14:44:23.667  INFO 19384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2019-12-22 14:44:24.035  INFO 19384 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 14:44:24.532  INFO 19384 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 14:44:24.543  INFO 19384 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 14:44:24.543  INFO 19384 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 14:44:24.618  INFO 19384 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 14:44:24.618  INFO 19384 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1511 ms
+2019-12-22 14:44:25.153  INFO 19384 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 14:44:25.894  INFO 19384 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 14:44:25.897  INFO 19384 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 3.172 seconds (JVM running for 3.524)
+2019-12-22 14:44:55.400  INFO 19384 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 14:44:55.400  INFO 19384 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-22 14:44:55.408  INFO 19384 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-12-22 14:44:55.694 ERROR 19384 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 14:44:55.707  INFO 19384 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 14:46:38.985  INFO 1488 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 1488 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 14:46:38.987  INFO 1488 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 14:46:39.525  INFO 1488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 14:46:39.528  INFO 1488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 14:46:39.563  INFO 1488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+2019-12-22 14:46:39.902  INFO 1488 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 14:46:40.397  INFO 1488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 14:46:40.407  INFO 1488 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 14:46:40.407  INFO 1488 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 14:46:40.483  INFO 1488 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 14:46:40.483  INFO 1488 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1454 ms
+2019-12-22 14:46:41.056  INFO 1488 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 14:46:41.785  INFO 1488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 14:46:41.788  INFO 1488 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 3.145 seconds (JVM running for 3.507)
+2019-12-22 14:46:46.948  INFO 1488 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 14:46:46.948  INFO 1488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-22 14:46:46.953  INFO 1488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-12-22 14:46:47.199 ERROR 1488 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 14:46:47.212  INFO 1488 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 15:17:00.892  INFO 14420 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 14420 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 15:17:00.894  INFO 14420 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 15:17:01.667  INFO 14420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 15:17:01.670  INFO 14420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 15:17:01.709  INFO 14420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+2019-12-22 15:17:02.131  INFO 14420 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 15:17:02.778  INFO 14420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 15:17:02.794  INFO 14420 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 15:17:02.794  INFO 14420 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 15:17:02.913  INFO 14420 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 15:17:02.913  INFO 14420 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1974 ms
+2019-12-22 15:17:03.768  INFO 14420 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 15:17:04.708  INFO 14420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 15:17:04.710  INFO 14420 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 4.169 seconds (JVM running for 4.534)
+2019-12-22 15:17:32.644  INFO 14420 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 15:17:32.644  INFO 14420 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-22 15:17:32.666  INFO 14420 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 22 ms
+2019-12-22 15:17:33.200 ERROR 14420 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 15:17:33.217  INFO 14420 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 15:21:58.676  INFO 15276 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 15276 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 15:21:58.676  INFO 15276 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 15:21:59.334  INFO 15276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 15:21:59.337  INFO 15276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 15:21:59.366  INFO 15276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+2019-12-22 15:21:59.680  INFO 15276 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 15:22:00.167  INFO 15276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 15:22:00.184  INFO 15276 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 15:22:00.185  INFO 15276 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 15:22:00.257  INFO 15276 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 15:22:00.258  INFO 15276 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1544 ms
+2019-12-22 15:22:00.869  INFO 15276 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 15:22:01.566  INFO 15276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 15:22:01.566  INFO 15276 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 3.224 seconds (JVM running for 3.599)
+2019-12-22 15:22:13.861  INFO 15276 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 15:22:13.861  INFO 15276 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-22 15:22:13.870  INFO 15276 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-12-22 15:22:14.216 ERROR 15276 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 15:22:14.228  INFO 15276 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 15:36:52.262  INFO 8360 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 8360 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 15:36:52.264  INFO 8360 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 15:36:52.849  INFO 8360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 15:36:52.851  INFO 8360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 15:36:52.879  INFO 8360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2019-12-22 15:36:53.205  INFO 8360 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 15:36:53.691  INFO 8360 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 15:36:53.701  INFO 8360 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 15:36:53.701  INFO 8360 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 15:36:53.777  INFO 8360 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 15:36:53.777  INFO 8360 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1475 ms
+2019-12-22 15:36:54.401  INFO 8360 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 15:36:55.119  INFO 8360 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 15:36:55.122  INFO 8360 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 3.23 seconds (JVM running for 3.601)
+2019-12-22 15:37:16.937  INFO 8360 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 15:37:16.938  INFO 8360 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-22 15:37:16.945  INFO 8360 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-12-22 15:37:17.243 ERROR 8360 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 15:37:17.255  INFO 8360 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 15:42:34.807  INFO 2404 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 2404 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 15:42:34.810  INFO 2404 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 15:42:35.451  INFO 2404 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 15:42:35.453  INFO 2404 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 15:42:35.485  INFO 2404 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+2019-12-22 15:42:35.875  INFO 2404 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 15:42:36.501  INFO 2404 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 15:42:36.513  INFO 2404 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 15:42:36.513  INFO 2404 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 15:42:36.607  INFO 2404 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 15:42:36.607  INFO 2404 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1756 ms
+2019-12-22 15:42:37.197  INFO 2404 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 15:42:37.909  INFO 2404 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 15:42:37.911  INFO 2404 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 3.485 seconds (JVM running for 3.851)
+2019-12-22 15:42:40.274  INFO 2404 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 15:42:40.274  INFO 2404 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-22 15:42:40.284  INFO 2404 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-12-22 15:42:40.611 ERROR 2404 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 15:42:40.624  INFO 2404 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 15:46:52.607  INFO 10120 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 10120 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 15:46:52.610  INFO 10120 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 15:46:53.244  INFO 10120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 15:46:53.247  INFO 10120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 15:46:53.275  INFO 10120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-12-22 15:46:53.606  INFO 10120 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 15:46:54.110  INFO 10120 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 15:46:54.121  INFO 10120 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 15:46:54.121  INFO 10120 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 15:46:54.214  INFO 10120 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 15:46:54.215  INFO 10120 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1562 ms
+2019-12-22 15:46:54.862  INFO 10120 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 15:46:55.587  INFO 10120 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 15:46:55.590  INFO 10120 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 3.332 seconds (JVM running for 3.69)
+2019-12-22 15:47:07.556  INFO 17244 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 17244 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 15:47:07.570  INFO 17244 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 15:47:08.488  INFO 17244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 15:47:08.493  INFO 17244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 15:47:08.553  INFO 17244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2019-12-22 15:47:09.250  INFO 17244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 15:47:10.058  INFO 17244 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 15:47:10.073  INFO 17244 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 15:47:10.073  INFO 17244 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 15:47:10.179  INFO 17244 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 15:47:10.179  INFO 17244 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2530 ms
+2019-12-22 15:47:10.897  INFO 17244 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 15:47:11.899  INFO 17244 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 15:47:11.902  INFO 17244 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 4.961 seconds (JVM running for 5.838)
+2019-12-22 15:47:19.894  INFO 17244 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 15:47:19.894  INFO 17244 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-22 15:47:19.905  INFO 17244 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-12-22 15:47:33.443 ERROR 17244 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 15:47:33.462  INFO 17244 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 15:56:44.694  INFO 14604 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 14604 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 15:56:44.694  INFO 14604 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 15:56:45.236  INFO 14604 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 15:56:45.242  INFO 14604 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 15:56:45.273  INFO 14604 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+2019-12-22 15:56:45.615  INFO 14604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 15:56:46.100  INFO 14604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 15:56:46.116  INFO 14604 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 15:56:46.116  INFO 14604 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 15:56:46.194  INFO 14604 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 15:56:46.194  INFO 14604 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1454 ms
+2019-12-22 15:56:46.725  INFO 14604 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 15:56:47.409  INFO 14604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 15:56:47.412  INFO 14604 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 3.05 seconds (JVM running for 3.388)
+2019-12-22 15:56:59.620  INFO 14604 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 15:56:59.620  INFO 14604 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-22 15:56:59.627  INFO 14604 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-12-22 15:56:59.894 ERROR 14604 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 15:56:59.906  INFO 14604 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 16:12:25.747  INFO 14604 --- [http-nio-8080-exec-1] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:415) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:292) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+
+2019-12-22 16:18:51.891  INFO 15388 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 15388 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 16:18:51.893  INFO 15388 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 16:18:52.439  INFO 15388 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 16:18:52.441  INFO 15388 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 16:18:52.471  INFO 15388 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2019-12-22 16:18:52.935  INFO 15388 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 16:18:53.456  INFO 15388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 16:18:53.466  INFO 15388 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 16:18:53.466  INFO 15388 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 16:18:53.538  INFO 15388 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 16:18:53.538  INFO 15388 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1603 ms
+2019-12-22 16:18:54.107  INFO 15388 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 16:18:54.811  INFO 15388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 16:18:54.813  INFO 15388 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 3.299 seconds (JVM running for 3.654)
+2019-12-22 16:18:56.666  INFO 15388 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 16:18:56.666  INFO 15388 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-22 16:18:56.673  INFO 15388 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-12-22 16:18:56.953 ERROR 15388 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 16:18:56.966  INFO 15388 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 16:45:40.814  INFO 12188 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 12188 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 16:45:40.816  INFO 12188 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 16:45:41.409  INFO 12188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 16:45:41.411  INFO 12188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 16:45:41.443  INFO 12188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+2019-12-22 16:45:41.765  INFO 12188 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 16:45:42.236  INFO 12188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 16:45:42.246  INFO 12188 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 16:45:42.246  INFO 12188 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 16:45:42.324  INFO 12188 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 16:45:42.324  INFO 12188 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1463 ms
+2019-12-22 16:45:42.892  INFO 12188 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 16:45:43.587  INFO 12188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 16:45:43.590  INFO 12188 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 3.104 seconds (JVM running for 3.489)
+2019-12-22 16:45:48.877  INFO 12188 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 16:45:48.877  INFO 12188 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-22 16:45:48.882  INFO 12188 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-12-22 16:45:49.125 ERROR 12188 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 16:45:49.135  INFO 12188 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 16:50:04.376  INFO 5996 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 5996 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 16:50:04.378  INFO 5996 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 16:50:04.912  INFO 5996 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 16:50:04.914  INFO 5996 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 16:50:04.948  INFO 5996 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+2019-12-22 16:50:05.433  INFO 5996 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 16:50:05.949  INFO 5996 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 16:50:05.959  INFO 5996 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 16:50:05.959  INFO 5996 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 16:50:06.034  INFO 5996 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 16:50:06.034  INFO 5996 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1611 ms
+2019-12-22 16:50:06.607  INFO 5996 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 16:50:07.260  INFO 5996 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 16:50:07.263  INFO 5996 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 3.231 seconds (JVM running for 3.615)
+2019-12-22 16:50:15.831  INFO 5996 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 16:50:15.831  INFO 5996 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-22 16:50:15.838  INFO 5996 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-12-22 16:50:16.084 ERROR 5996 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 16:50:16.094  INFO 5996 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 16:54:35.184  INFO 3540 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 3540 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 16:54:35.187  INFO 3540 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 16:54:35.760  INFO 3540 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 16:54:35.762  INFO 3540 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 16:54:35.795  INFO 3540 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+2019-12-22 16:54:36.117  INFO 3540 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 16:54:36.601  INFO 3540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 16:54:36.611  INFO 3540 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 16:54:36.611  INFO 3540 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 16:54:36.690  INFO 3540 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 16:54:36.690  INFO 3540 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1456 ms
+2019-12-22 16:54:37.255  INFO 3540 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 16:54:37.930  INFO 3540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 16:54:37.933  INFO 3540 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 3.128 seconds (JVM running for 3.477)
+2019-12-22 16:54:45.360  INFO 3540 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 16:54:45.360  INFO 3540 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-22 16:54:45.367  INFO 3540 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-12-22 16:54:45.606 ERROR 3540 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 16:54:45.617  INFO 3540 --- [taskExecutor-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 19:09:17.885  INFO 15320 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 15320 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 19:09:17.893  INFO 15320 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 19:09:18.751  INFO 15320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 19:09:18.755  INFO 15320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 19:09:18.802  INFO 15320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
+2019-12-22 19:09:19.338  INFO 15320 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 19:09:19.984  INFO 15320 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 19:09:19.996  INFO 15320 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 19:09:19.996  INFO 15320 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 19:09:20.102  INFO 15320 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 19:09:20.102  INFO 15320 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2141 ms
+2019-12-22 19:09:20.886  INFO 15320 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 19:09:21.785  INFO 15320 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 19:09:21.790  INFO 15320 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 4.421 seconds (JVM running for 4.904)
+2019-12-22 21:13:49.544  INFO 18072 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 18072 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 21:13:49.546  INFO 18072 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 21:13:50.245  INFO 18072 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 21:13:50.251  INFO 18072 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 21:13:50.294  INFO 18072 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+2019-12-22 21:13:50.662  INFO 18072 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [org.bobo.silence.configuration.RedisConfig$$EnhancerBySpringCGLIB$$e41e824a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 21:13:50.666  INFO 18072 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 21:13:51.236  INFO 18072 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 21:13:51.247  INFO 18072 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 21:13:51.247  INFO 18072 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 21:13:51.385  INFO 18072 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 21:13:51.386  INFO 18072 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1795 ms
+2019-12-22 21:13:52.167 ERROR 18072 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 21:13:52.176  INFO 18072 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 21:13:52.695  WARN 18072 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appConfig' defined in org.bobo.silence.SilenceApplication$AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [void]: Factory method 'cacheAppConfig' threw exception; nested exception is java.lang.NullPointerException
+2019-12-22 21:13:52.697  INFO 18072 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-12-22 21:13:52.700  INFO 18072 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-12-22 21:13:52.707  INFO 18072 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-22 21:13:52.711 ERROR 18072 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appConfig' defined in org.bobo.silence.SilenceApplication$AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [void]: Factory method 'cacheAppConfig' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:645) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:475) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.bobo.silence.SilenceApplication.main(SilenceApplication.java:25) [classes/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [void]: Factory method 'cacheAppConfig' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:640) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	... 19 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at org.springframework.data.redis.core.AbstractOperations.rawValue(AbstractOperations.java:127) ~[spring-data-redis-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.data.redis.core.DefaultValueOperations.set(DefaultValueOperations.java:235) ~[spring-data-redis-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.bobo.silence.SilenceApplication$AppConfig.cacheAppConfig(SilenceApplication.java:59) ~[classes/:na]
+	at org.bobo.silence.SilenceApplication$AppConfig$$EnhancerBySpringCGLIB$$d32e3301.CGLIB$cacheAppConfig$0(<generated>) ~[classes/:na]
+	at org.bobo.silence.SilenceApplication$AppConfig$$EnhancerBySpringCGLIB$$d32e3301$$FastClassBySpringCGLIB$$49cf5f37.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.bobo.silence.SilenceApplication$AppConfig$$EnhancerBySpringCGLIB$$d32e3301.cacheAppConfig(<generated>) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	... 20 common frames omitted
+
+2019-12-22 21:37:01.234  INFO 15768 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 15768 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 21:37:01.236  INFO 15768 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 21:37:01.703  WARN 15768 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'appConfig' defined in class path resource [org/bobo/silence/configuration/AppConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=appConfig; factoryMethodName=cacheAppConfig; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/bobo/silence/configuration/AppConfig.class]] for bean 'appConfig': There is already [Generic bean: class [org.bobo.silence.configuration.AppConfig]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\MyWork\project\Silence\Source\Back\silence\target\classes\org\bobo\silence\configuration\AppConfig.class]] bound.
+2019-12-22 21:37:01.711  INFO 15768 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-22 21:37:01.713 ERROR 15768 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'appConfig', defined in class path resource [org/bobo/silence/configuration/AppConfig.class], could not be registered. A bean with that name has already been defined in file [D:\MyWork\project\Silence\Source\Back\silence\target\classes\org\bobo\silence\configuration\AppConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2019-12-22 21:38:33.155  INFO 7020 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 7020 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 21:38:33.157  INFO 7020 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 21:38:33.808  INFO 7020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 21:38:33.810  INFO 7020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 21:38:33.846  INFO 7020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+2019-12-22 21:38:34.245  INFO 7020 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [org.bobo.silence.configuration.RedisConfig$$EnhancerBySpringCGLIB$$a2aff4b6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 21:38:34.251  INFO 7020 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 21:38:34.903  INFO 7020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 21:38:34.914  INFO 7020 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 21:38:34.915  INFO 7020 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 21:38:35.042  INFO 7020 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 21:38:35.043  INFO 7020 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1841 ms
+2019-12-22 21:38:35.960 ERROR 7020 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 21:38:35.971  INFO 7020 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 21:38:36.565  INFO 7020 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-12-22 21:38:36.567  INFO 7020 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-12-22 21:38:37.012  INFO 7020 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 21:38:37.554  INFO 7020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 21:38:37.557  INFO 7020 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 4.782 seconds (JVM running for 5.198)
+2019-12-22 21:42:57.766  INFO 14016 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 14016 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 21:42:57.769  INFO 14016 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 21:42:58.374  INFO 14016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 21:42:58.376  INFO 14016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 21:42:58.412  INFO 14016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+2019-12-22 21:42:58.799  INFO 14016 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [org.bobo.silence.configuration.RedisConfig$$EnhancerBySpringCGLIB$$8ddfa9cb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 21:42:58.805  INFO 14016 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 21:42:59.527  INFO 14016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 21:42:59.547  INFO 14016 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 21:42:59.547  INFO 14016 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 21:42:59.766  INFO 14016 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 21:42:59.766  INFO 14016 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1947 ms
+2019-12-22 21:43:00.714 ERROR 14016 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 21:43:00.725  INFO 14016 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 21:43:01.312  INFO 14016 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-12-22 21:43:01.313  INFO 14016 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-12-22 21:43:01.762  INFO 14016 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 21:43:02.285  INFO 14016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 21:43:02.289  INFO 14016 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 4.881 seconds (JVM running for 5.253)
+2019-12-22 21:43:13.707  INFO 14016 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 21:43:13.708  INFO 14016 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-22 21:43:13.716  INFO 14016 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-12-22 22:07:52.315  INFO 2584 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 2584 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 22:07:52.318  INFO 2584 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 22:07:52.934  INFO 2584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 22:07:52.936  INFO 2584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 22:07:52.967  INFO 2584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2019-12-22 22:07:53.334  INFO 2584 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [org.bobo.silence.configuration.RedisConfig$$EnhancerBySpringCGLIB$$c84c6779] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 22:07:53.338  INFO 2584 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 22:07:53.978  INFO 2584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 22:07:53.992  INFO 2584 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 22:07:53.993  INFO 2584 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 22:07:54.104  INFO 2584 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 22:07:54.104  INFO 2584 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1733 ms
+2019-12-22 22:07:54.950  WARN 2584 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appConfiguration' defined in file [D:\MyWork\project\Silence\Source\Back\silence\target\classes\org\bobo\silence\configuration\AppConfiguration.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.bobo.silence.configuration.AppConfiguration]: Constructor threw exception; nested exception is java.lang.NullPointerException
+2019-12-22 22:07:54.966  INFO 2584 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-12-22 22:07:55.014  INFO 2584 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-22 22:07:55.020 ERROR 2584 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appConfiguration' defined in file [D:\MyWork\project\Silence\Source\Back\silence\target\classes\org\bobo\silence\configuration\AppConfiguration.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.bobo.silence.configuration.AppConfiguration]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.bobo.silence.SilenceApplication.main(SilenceApplication.java:13) [classes/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.bobo.silence.configuration.AppConfiguration]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:213) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	... 17 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at org.bobo.silence.configuration.AppConfiguration.<init>(AppConfiguration.java:20) ~[classes/:na]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_191]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_191]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	... 19 common frames omitted
+
+2019-12-22 22:09:13.159  INFO 14256 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 14256 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 22:09:13.161  INFO 14256 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 22:09:13.708  INFO 14256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 22:09:13.710  INFO 14256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 22:09:13.741  INFO 14256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2019-12-22 22:09:14.092  INFO 14256 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [org.bobo.silence.configuration.RedisConfig$$EnhancerBySpringCGLIB$$728c9785] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 22:09:14.096  INFO 14256 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 22:09:14.647  INFO 14256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 22:09:14.657  INFO 14256 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 22:09:14.658  INFO 14256 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 22:09:14.789  INFO 14256 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 22:09:14.789  INFO 14256 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1586 ms
+2019-12-22 22:09:15.551  WARN 14256 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appConfiguration' defined in file [D:\MyWork\project\Silence\Source\Back\silence\target\classes\org\bobo\silence\configuration\AppConfiguration.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.bobo.silence.configuration.AppConfiguration]: Constructor threw exception; nested exception is java.lang.NullPointerException
+2019-12-22 22:09:15.566  INFO 14256 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-12-22 22:09:15.616  INFO 14256 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-22 22:09:15.621 ERROR 14256 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appConfiguration' defined in file [D:\MyWork\project\Silence\Source\Back\silence\target\classes\org\bobo\silence\configuration\AppConfiguration.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.bobo.silence.configuration.AppConfiguration]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.bobo.silence.SilenceApplication.main(SilenceApplication.java:13) [classes/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.bobo.silence.configuration.AppConfiguration]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:213) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	... 17 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at org.bobo.silence.configuration.AppConfiguration.<init>(AppConfiguration.java:20) ~[classes/:na]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_191]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_191]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	... 19 common frames omitted
+
+2019-12-22 22:12:28.614  INFO 17720 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 17720 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 22:12:28.616  INFO 17720 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 22:12:29.249  INFO 17720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 22:12:29.251  INFO 17720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 22:12:29.290  INFO 17720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2019-12-22 22:12:29.618  INFO 17720 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [org.bobo.silence.configuration.RedisConfig$$EnhancerBySpringCGLIB$$8ddfa9cb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 22:12:29.622  INFO 17720 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 22:12:30.370  INFO 17720 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 22:12:30.380  INFO 17720 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 22:12:30.381  INFO 17720 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 22:12:30.500  INFO 17720 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 22:12:30.501  INFO 17720 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1823 ms
+2019-12-22 22:12:31.216  WARN 17720 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appConfiguration' defined in file [D:\MyWork\project\Silence\Source\Back\silence\target\classes\org\bobo\silence\configuration\AppConfiguration.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.bobo.silence.configuration.AppConfiguration]: Constructor threw exception; nested exception is java.lang.NullPointerException
+2019-12-22 22:12:31.233  INFO 17720 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-12-22 22:12:31.284  INFO 17720 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-22 22:12:31.287 ERROR 17720 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appConfiguration' defined in file [D:\MyWork\project\Silence\Source\Back\silence\target\classes\org\bobo\silence\configuration\AppConfiguration.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.bobo.silence.configuration.AppConfiguration]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.bobo.silence.SilenceApplication.main(SilenceApplication.java:13) [classes/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.bobo.silence.configuration.AppConfiguration]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:213) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	... 17 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at org.bobo.silence.configuration.AppConfiguration.<init>(AppConfiguration.java:12) ~[classes/:na]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_191]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_191]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	... 19 common frames omitted
+
+2019-12-22 22:27:27.167  INFO 17972 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 17972 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 22:27:27.170  INFO 17972 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 22:27:27.814  INFO 17972 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 22:27:27.816  INFO 17972 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 22:27:27.846  INFO 17972 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-12-22 22:27:28.180  INFO 17972 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [org.bobo.silence.configuration.RedisConfig$$EnhancerBySpringCGLIB$$6f2dff8f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 22:27:28.184  INFO 17972 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 22:27:28.735  INFO 17972 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 22:27:28.746  INFO 17972 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 22:27:28.746  INFO 17972 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 22:27:28.854  INFO 17972 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 22:27:28.854  INFO 17972 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1635 ms
+2019-12-22 22:27:29.652 ERROR 17972 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 22:27:29.659  INFO 17972 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 22:27:30.250  INFO 17972 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-12-22 22:27:30.251  INFO 17972 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-12-22 22:27:30.662  WARN 17972 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMasterController': Unsatisfied dependency expressed through field 'userMasterService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMasterService': Unsatisfied dependency expressed through field 'appConfiguration'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheAppConfig' defined in class path resource [org/bobo/silence/configuration/AppConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.bobo.silence.configuration.AppConfiguration]: Factory method 'cacheAppConfig' threw exception; nested exception is java.lang.NoSuchFieldException: ApplicationName
+2019-12-22 22:27:30.665  INFO 17972 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-12-22 22:27:31.782  INFO 17972 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-12-22 22:27:31.791  INFO 17972 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-22 22:27:31.796 ERROR 17972 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMasterController': Unsatisfied dependency expressed through field 'userMasterService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMasterService': Unsatisfied dependency expressed through field 'appConfiguration'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheAppConfig' defined in class path resource [org/bobo/silence/configuration/AppConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.bobo.silence.configuration.AppConfiguration]: Factory method 'cacheAppConfig' threw exception; nested exception is java.lang.NoSuchFieldException: ApplicationName
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.bobo.silence.SilenceApplication.main(SilenceApplication.java:13) [classes/:na]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMasterService': Unsatisfied dependency expressed through field 'appConfiguration'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheAppConfig' defined in class path resource [org/bobo/silence/configuration/AppConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.bobo.silence.configuration.AppConfiguration]: Factory method 'cacheAppConfig' threw exception; nested exception is java.lang.NoSuchFieldException: ApplicationName
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheAppConfig' defined in class path resource [org/bobo/silence/configuration/AppConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.bobo.silence.configuration.AppConfiguration]: Factory method 'cacheAppConfig' threw exception; nested exception is java.lang.NoSuchFieldException: ApplicationName
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:645) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:475) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	... 32 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.bobo.silence.configuration.AppConfiguration]: Factory method 'cacheAppConfig' threw exception; nested exception is java.lang.NoSuchFieldException: ApplicationName
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:640) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	... 45 common frames omitted
+Caused by: java.lang.NoSuchFieldException: ApplicationName
+	at java.lang.Class.getField(Class.java:1703) ~[na:1.8.0_191]
+	at org.bobo.silence.configuration.AppConfig.cacheAppConfig(AppConfig.java:30) ~[classes/:na]
+	at org.bobo.silence.configuration.AppConfig$$EnhancerBySpringCGLIB$$4fa6eb5.CGLIB$cacheAppConfig$0(<generated>) ~[classes/:na]
+	at org.bobo.silence.configuration.AppConfig$$EnhancerBySpringCGLIB$$4fa6eb5$$FastClassBySpringCGLIB$$ca382bec.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.bobo.silence.configuration.AppConfig$$EnhancerBySpringCGLIB$$4fa6eb5.cacheAppConfig(<generated>) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	... 46 common frames omitted
+
+2019-12-22 22:33:05.853  INFO 1600 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 1600 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 22:33:05.856  INFO 1600 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 22:33:06.423  INFO 1600 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 22:33:06.426  INFO 1600 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 22:33:06.457  INFO 1600 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2019-12-22 22:33:06.829  INFO 1600 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [org.bobo.silence.configuration.RedisConfig$$EnhancerBySpringCGLIB$$4ea18db0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 22:33:06.834  INFO 1600 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 22:33:07.362  INFO 1600 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 22:33:07.372  INFO 1600 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 22:33:07.372  INFO 1600 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 22:33:07.525  INFO 1600 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 22:33:07.525  INFO 1600 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1624 ms
+2019-12-22 22:33:08.276 ERROR 1600 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 22:33:08.284  INFO 1600 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 22:33:08.852  INFO 1600 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-12-22 22:33:08.853  INFO 1600 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-12-22 22:33:09.266  WARN 1600 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMasterController': Unsatisfied dependency expressed through field 'userMasterService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMasterService': Unsatisfied dependency expressed through field 'appConfiguration'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheAppConfig' defined in class path resource [org/bobo/silence/configuration/AppConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.bobo.silence.configuration.AppConfiguration]: Factory method 'cacheAppConfig' threw exception; nested exception is java.lang.IllegalArgumentException: Can not set java.lang.Integer field org.bobo.silence.configuration.AppConfiguration.TokenExpireTime to java.lang.String
+2019-12-22 22:33:09.269  INFO 1600 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-12-22 22:33:10.387  INFO 1600 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-12-22 22:33:10.394  INFO 1600 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-22 22:33:10.398 ERROR 1600 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMasterController': Unsatisfied dependency expressed through field 'userMasterService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMasterService': Unsatisfied dependency expressed through field 'appConfiguration'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheAppConfig' defined in class path resource [org/bobo/silence/configuration/AppConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.bobo.silence.configuration.AppConfiguration]: Factory method 'cacheAppConfig' threw exception; nested exception is java.lang.IllegalArgumentException: Can not set java.lang.Integer field org.bobo.silence.configuration.AppConfiguration.TokenExpireTime to java.lang.String
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.bobo.silence.SilenceApplication.main(SilenceApplication.java:13) [classes/:na]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMasterService': Unsatisfied dependency expressed through field 'appConfiguration'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheAppConfig' defined in class path resource [org/bobo/silence/configuration/AppConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.bobo.silence.configuration.AppConfiguration]: Factory method 'cacheAppConfig' threw exception; nested exception is java.lang.IllegalArgumentException: Can not set java.lang.Integer field org.bobo.silence.configuration.AppConfiguration.TokenExpireTime to java.lang.String
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheAppConfig' defined in class path resource [org/bobo/silence/configuration/AppConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.bobo.silence.configuration.AppConfiguration]: Factory method 'cacheAppConfig' threw exception; nested exception is java.lang.IllegalArgumentException: Can not set java.lang.Integer field org.bobo.silence.configuration.AppConfiguration.TokenExpireTime to java.lang.String
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:645) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:475) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	... 32 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.bobo.silence.configuration.AppConfiguration]: Factory method 'cacheAppConfig' threw exception; nested exception is java.lang.IllegalArgumentException: Can not set java.lang.Integer field org.bobo.silence.configuration.AppConfiguration.TokenExpireTime to java.lang.String
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:640) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	... 45 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Can not set java.lang.Integer field org.bobo.silence.configuration.AppConfiguration.TokenExpireTime to java.lang.String
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167) ~[na:1.8.0_191]
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171) ~[na:1.8.0_191]
+	at sun.reflect.UnsafeObjectFieldAccessorImpl.set(UnsafeObjectFieldAccessorImpl.java:81) ~[na:1.8.0_191]
+	at java.lang.reflect.Field.set(Field.java:764) ~[na:1.8.0_191]
+	at org.bobo.silence.configuration.AppConfig.cacheAppConfig(AppConfig.java:33) ~[classes/:na]
+	at org.bobo.silence.configuration.AppConfig$$EnhancerBySpringCGLIB$$e46dfcd6.CGLIB$cacheAppConfig$0(<generated>) ~[classes/:na]
+	at org.bobo.silence.configuration.AppConfig$$EnhancerBySpringCGLIB$$e46dfcd6$$FastClassBySpringCGLIB$$c317aa11.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.bobo.silence.configuration.AppConfig$$EnhancerBySpringCGLIB$$e46dfcd6.cacheAppConfig(<generated>) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	... 46 common frames omitted
+
+2019-12-22 22:34:17.848  INFO 9016 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 9016 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 22:34:17.850  INFO 9016 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 22:34:18.532  INFO 9016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 22:34:18.535  INFO 9016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 22:34:18.571  INFO 9016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+2019-12-22 22:34:18.920  INFO 9016 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [org.bobo.silence.configuration.RedisConfig$$EnhancerBySpringCGLIB$$e7296471] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 22:34:18.924  INFO 9016 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 22:34:19.502  INFO 9016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 22:34:19.512  INFO 9016 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 22:34:19.512  INFO 9016 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 22:34:19.674  INFO 9016 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 22:34:19.674  INFO 9016 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1781 ms
+2019-12-22 22:34:20.558 ERROR 9016 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 22:34:20.567  INFO 9016 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 22:34:21.157  INFO 9016 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-12-22 22:34:21.159  INFO 9016 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-12-22 22:34:21.589  WARN 9016 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheAppConfig' defined in class path resource [org/bobo/silence/configuration/AppConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.bobo.silence.configuration.AppConfiguration]: Factory method 'cacheAppConfig' threw exception; nested exception is java.lang.IllegalArgumentException: Can not set java.lang.Integer field org.bobo.silence.configuration.AppConfiguration.TokenExpireTime to java.lang.String
+2019-12-22 22:34:21.592  INFO 9016 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-12-22 22:34:22.707  INFO 9016 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-12-22 22:34:22.719  INFO 9016 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-22 22:34:22.724 ERROR 9016 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheAppConfig' defined in class path resource [org/bobo/silence/configuration/AppConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.bobo.silence.configuration.AppConfiguration]: Factory method 'cacheAppConfig' threw exception; nested exception is java.lang.IllegalArgumentException: Can not set java.lang.Integer field org.bobo.silence.configuration.AppConfiguration.TokenExpireTime to java.lang.String
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:645) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:475) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.bobo.silence.SilenceApplication.main(SilenceApplication.java:13) [classes/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.bobo.silence.configuration.AppConfiguration]: Factory method 'cacheAppConfig' threw exception; nested exception is java.lang.IllegalArgumentException: Can not set java.lang.Integer field org.bobo.silence.configuration.AppConfiguration.TokenExpireTime to java.lang.String
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:640) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Can not set java.lang.Integer field org.bobo.silence.configuration.AppConfiguration.TokenExpireTime to java.lang.String
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167) ~[na:1.8.0_191]
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171) ~[na:1.8.0_191]
+	at sun.reflect.UnsafeObjectFieldAccessorImpl.set(UnsafeObjectFieldAccessorImpl.java:81) ~[na:1.8.0_191]
+	at java.lang.reflect.Field.set(Field.java:764) ~[na:1.8.0_191]
+	at org.bobo.silence.configuration.AppConfig.cacheAppConfig(AppConfig.java:33) ~[classes/:na]
+	at org.bobo.silence.configuration.AppConfig$$EnhancerBySpringCGLIB$$7cf5d397.CGLIB$cacheAppConfig$0(<generated>) ~[classes/:na]
+	at org.bobo.silence.configuration.AppConfig$$EnhancerBySpringCGLIB$$7cf5d397$$FastClassBySpringCGLIB$$1e3725ed.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.bobo.silence.configuration.AppConfig$$EnhancerBySpringCGLIB$$7cf5d397.cacheAppConfig(<generated>) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	... 20 common frames omitted
+
+2019-12-22 22:35:59.353  INFO 5948 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 5948 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 22:35:59.355  INFO 5948 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 22:35:59.905  INFO 5948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 22:35:59.907  INFO 5948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 22:35:59.939  INFO 5948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+2019-12-22 22:36:00.362  INFO 5948 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [org.bobo.silence.configuration.RedisConfig$$EnhancerBySpringCGLIB$$a8896f6d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 22:36:00.367  INFO 5948 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 22:36:00.934  INFO 5948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 22:36:00.943  INFO 5948 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 22:36:00.944  INFO 5948 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 22:36:01.100  INFO 5948 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 22:36:01.101  INFO 5948 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1706 ms
+2019-12-22 22:36:01.866 ERROR 5948 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 22:36:01.873  INFO 5948 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 22:36:02.430  INFO 5948 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-12-22 22:36:02.431  INFO 5948 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-12-22 22:36:02.846  WARN 5948 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMasterController': Unsatisfied dependency expressed through field 'userMasterService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMasterService': Unsatisfied dependency expressed through field 'appConfiguration'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheAppConfig' defined in class path resource [org/bobo/silence/configuration/AppConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.bobo.silence.configuration.AppConfiguration]: Factory method 'cacheAppConfig' threw exception; nested exception is java.lang.IllegalArgumentException: Can not set java.lang.Integer field org.bobo.silence.configuration.AppConfiguration.TokenExpireTime to java.lang.String
+2019-12-22 22:36:02.848  INFO 5948 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-12-22 22:36:03.964  INFO 5948 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-12-22 22:36:03.973  INFO 5948 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-22 22:36:03.977 ERROR 5948 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMasterController': Unsatisfied dependency expressed through field 'userMasterService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMasterService': Unsatisfied dependency expressed through field 'appConfiguration'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheAppConfig' defined in class path resource [org/bobo/silence/configuration/AppConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.bobo.silence.configuration.AppConfiguration]: Factory method 'cacheAppConfig' threw exception; nested exception is java.lang.IllegalArgumentException: Can not set java.lang.Integer field org.bobo.silence.configuration.AppConfiguration.TokenExpireTime to java.lang.String
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.bobo.silence.SilenceApplication.main(SilenceApplication.java:13) [classes/:na]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMasterService': Unsatisfied dependency expressed through field 'appConfiguration'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheAppConfig' defined in class path resource [org/bobo/silence/configuration/AppConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.bobo.silence.configuration.AppConfiguration]: Factory method 'cacheAppConfig' threw exception; nested exception is java.lang.IllegalArgumentException: Can not set java.lang.Integer field org.bobo.silence.configuration.AppConfiguration.TokenExpireTime to java.lang.String
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheAppConfig' defined in class path resource [org/bobo/silence/configuration/AppConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.bobo.silence.configuration.AppConfiguration]: Factory method 'cacheAppConfig' threw exception; nested exception is java.lang.IllegalArgumentException: Can not set java.lang.Integer field org.bobo.silence.configuration.AppConfiguration.TokenExpireTime to java.lang.String
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:645) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:475) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	... 32 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.bobo.silence.configuration.AppConfiguration]: Factory method 'cacheAppConfig' threw exception; nested exception is java.lang.IllegalArgumentException: Can not set java.lang.Integer field org.bobo.silence.configuration.AppConfiguration.TokenExpireTime to java.lang.String
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:640) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	... 45 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Can not set java.lang.Integer field org.bobo.silence.configuration.AppConfiguration.TokenExpireTime to java.lang.String
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167) ~[na:1.8.0_191]
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171) ~[na:1.8.0_191]
+	at sun.reflect.UnsafeObjectFieldAccessorImpl.set(UnsafeObjectFieldAccessorImpl.java:81) ~[na:1.8.0_191]
+	at java.lang.reflect.Field.set(Field.java:764) ~[na:1.8.0_191]
+	at org.bobo.silence.configuration.AppConfig.cacheAppConfig(AppConfig.java:34) ~[classes/:na]
+	at org.bobo.silence.configuration.AppConfig$$EnhancerBySpringCGLIB$$3e55de93.CGLIB$cacheAppConfig$0(<generated>) ~[classes/:na]
+	at org.bobo.silence.configuration.AppConfig$$EnhancerBySpringCGLIB$$3e55de93$$FastClassBySpringCGLIB$$94e22e32.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) ~[spring-context-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	at org.bobo.silence.configuration.AppConfig$$EnhancerBySpringCGLIB$$3e55de93.cacheAppConfig(<generated>) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.0.RELEASE.jar:5.2.0.RELEASE]
+	... 46 common frames omitted
+
+2019-12-22 22:37:40.767  INFO 3348 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 3348 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 22:37:40.769  INFO 3348 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 22:37:41.330  INFO 3348 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 22:37:41.333  INFO 3348 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 22:37:41.368  INFO 3348 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2019-12-22 22:37:41.705  INFO 3348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [org.bobo.silence.configuration.RedisConfig$$EnhancerBySpringCGLIB$$f8e6eda0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 22:37:41.709  INFO 3348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 22:37:42.288  INFO 3348 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 22:37:42.300  INFO 3348 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 22:37:42.300  INFO 3348 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 22:37:42.467  INFO 3348 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 22:37:42.467  INFO 3348 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1657 ms
+2019-12-22 22:37:43.255 ERROR 3348 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 22:37:43.262  INFO 3348 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 22:37:43.813  INFO 3348 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-12-22 22:37:43.814  INFO 3348 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-12-22 22:37:44.249  INFO 3348 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 22:37:44.723  INFO 3348 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 22:37:44.726  INFO 3348 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 4.293 seconds (JVM running for 4.671)
+2019-12-22 22:38:11.173  INFO 3348 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 22:38:11.173  INFO 3348 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-22 22:38:11.182  INFO 3348 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-12-22 22:39:28.589  INFO 15780 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 15780 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 22:39:28.591  INFO 15780 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 22:39:29.178  INFO 15780 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 22:39:29.181  INFO 15780 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 22:39:29.240  INFO 15780 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38ms. Found 0 repository interfaces.
+2019-12-22 22:39:29.616  INFO 15780 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [org.bobo.silence.configuration.RedisConfig$$EnhancerBySpringCGLIB$$58872746] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 22:39:29.621  INFO 15780 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 22:39:30.198  INFO 15780 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 22:39:30.209  INFO 15780 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 22:39:30.209  INFO 15780 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 22:39:30.401  INFO 15780 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 22:39:30.401  INFO 15780 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1771 ms
+2019-12-22 22:39:31.218 ERROR 15780 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 22:39:31.226  INFO 15780 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 22:39:31.800  INFO 15780 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-12-22 22:39:31.801  INFO 15780 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-12-22 22:39:32.255  INFO 15780 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 22:39:32.735  INFO 15780 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 22:39:32.737  INFO 15780 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 4.493 seconds (JVM running for 4.86)
+2019-12-22 22:40:23.569  INFO 4664 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 4664 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 22:40:23.571  INFO 4664 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 22:40:24.192  INFO 4664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 22:40:24.194  INFO 4664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 22:40:24.232  INFO 4664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+2019-12-22 22:40:24.600  INFO 4664 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [org.bobo.silence.configuration.RedisConfig$$EnhancerBySpringCGLIB$$c04a76d3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 22:40:24.604  INFO 4664 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 22:40:25.209  INFO 4664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 22:40:25.219  INFO 4664 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 22:40:25.219  INFO 4664 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 22:40:25.343  INFO 4664 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 22:40:25.343  INFO 4664 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1730 ms
+2019-12-22 22:40:26.139 ERROR 4664 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 22:40:26.147  INFO 4664 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 22:40:26.710  INFO 4664 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-12-22 22:40:26.711  INFO 4664 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-12-22 22:40:27.150  INFO 4664 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 22:40:27.649  INFO 4664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 22:40:27.652  INFO 4664 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 4.418 seconds (JVM running for 4.766)
+2019-12-22 22:52:53.568  INFO 3772 --- [main] org.bobo.silence.SilenceApplication      : Starting SilenceApplication on DESKTOP-EIS8PAV with PID 3772 (D:\MyWork\project\Silence\Source\Back\silence\target\classes started by dell in D:\MyWork\project\Silence\Source\Back\silence)
+2019-12-22 22:52:53.570  INFO 3772 --- [main] org.bobo.silence.SilenceApplication      : The following profiles are active: dev
+2019-12-22 22:52:54.174  INFO 3772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 22:52:54.176  INFO 3772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-22 22:52:54.214  INFO 3772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2019-12-22 22:52:54.605  INFO 3772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [org.bobo.silence.configuration.RedisConfig$$EnhancerBySpringCGLIB$$8ca4cbe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 22:52:54.610  INFO 3772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 22:52:55.176  INFO 3772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-22 22:52:55.187  INFO 3772 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 22:52:55.187  INFO 3772 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-22 22:52:55.315  INFO 3772 --- [main] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 22:52:55.315  INFO 3772 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1704 ms
+2019-12-22 22:52:56.109 ERROR 3772 --- [main] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-12-22 22:52:56.117  INFO 3772 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-22 22:52:56.936  INFO 3772 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-12-22 22:52:56.937  INFO 3772 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-12-22 22:52:57.434  INFO 3772 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2019-12-22 22:52:57.965  INFO 3772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/silence'
+2019-12-22 22:52:57.968  INFO 3772 --- [main] org.bobo.silence.SilenceApplication      : Started SilenceApplication in 4.759 seconds (JVM running for 5.148)
+2019-12-22 22:53:52.860  INFO 3772 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[localhost].[/silence]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 22:53:52.860  INFO 3772 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-22 22:53:52.877  INFO 3772 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
