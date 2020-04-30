@@ -37,7 +37,9 @@ spring:
       spring.redis.pool.max-idle: 8 # 连接池中的最大空闲连接
       spring.redis.pool.min-idle: 0 # 连接池中的最小空闲连接
       spring.redis.timeout: 1000 # 连接超时时间（毫秒）
-
+   zookeeper:
+      address: 127.0.0.1:2181
+      timeout: 4000
 
 mybatis:
    mapper-locations: classpath*:/mapper/**Mapper.xml,classpath*:/mapper/SilenceMapper/**Mapper.xml
